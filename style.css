@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: #051842;
+
+}
+
+body{
+    
+    align-items: center;
+    background: #fff;
+    
+}
+
+h1{
+    font-size: 4rem;
+}
+.xixi{
+    color: #2125297d;
+
+}
+.conteiner{
+    text-align: center;
+}
+.btn-primary {
+    image-rendering: center;
+    margin: -30px;
+    border: blue;
+    background: #2566fc;
+    color: #fff;
+    border-radius: 10px;
+    height: 45px;
+    padding: 0 30px;
+}
+
+.spinner{
+    border: 5px dashed #dfdbdbf1;
+    height: 370px;
+    width: 700px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    border-width: 50%;
+    z-index: 2;
+    margin-top: 10px;
+
+    
+
+    
+}
+.pila{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+
+}
+.o{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 3rem;
+}
+
+input[type="submit"] {
+    width: 169;
+    height: 52;
+    margin-bottom: 50px;
+    background-color: #0554e4;
+    border-radius: 10px;
+    color: #fff;
+
+}
+.spinner-form{
+    height: 400px;
+    width: 750px;
+    display: block;
+}
+.card-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; 
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Cambia el valor del ancho según tus necesidades */
+    height: 40vh; /* Cambia el valor del alto según tus necesidades */
+    z-index: -3; /* Coloca la tarjeta detrás del formulario */
+    border: none;
+    border-radius: 25px;
+    margin-top: 70px;
+    
+}
+
+.upload-form {
+    
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+.card .card-img {
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    height: 40vh; /* La imagen ocupará todo el alto del contenedor */
+    object-fit: cover;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(221, 220, 220, 0.548);
+    opacity: 0.5;
+}
+.rectangulo {
+ 
+    height: 450px;
+    width: 730px;
+    background: #ffffff;
+    border-radius: 40px;
+    position: center; /* Añade esta propiedad para establecer un contexto de apilamiento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+    box-shadow: 0px 0px 15px rgba(221, 220, 220, 0.35);
+    border: 2px solid #f2f4f5;
+}
+
+.rectangulo form {
+    
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.rectangulo input[type="file"] {
+    margin-top: 10px;
+}
+
+.letra{
+    margin-top: 30px;
+    color: #2125297d;
+}
+.boton-descargar {
+    padding: 5px 10px;
+    background-color: #0554e4;
+    color: rgb(248, 247, 247);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilos para la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.agua{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.lola{
+    border: 7px solid #dfdbdbf1;
+    height: 300px;
+    width: 600px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    
+}
+.center{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 350px;
+    width: 640px;
+    background: #fafafa;
+    position: center;
+    border-radius: 40px;
+    margin: 15px;
+    box-shadow: 0px 0px 15px rgba(221, 220, 220, 0.35);
+    border: 2px solid #f2f4f5;
+}
+.clase{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

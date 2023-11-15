@@ -1,0 +1,156 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+body{
+    background: rgb(246,237,220);
+background: linear-gradient(180deg, rgba(246,237,220,1) 0%, rgba(165,200,202,1) 46%, rgba(99,155,200,1) 100%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+.spn{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 80px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.drop-area {
+    flex: 1;
+    margin: 10px; /* Espacio entre los contenedores */
+    border: 4px dashed #c4c4c4; /* Borde para visualización */
+    box-sizing: border-box; /* El borde se incluye en el ancho y alto del contenedor */
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 20px;
+}
+
+.container2 {
+    flex: 1;
+    margin: 10px; /* Espacio entre los contenedores */
+    border: 4px dashed #c4c4c4; /* Borde para visualización */
+    box-sizing: border-box; /* El borde se incluye en el ancho y alto del contenedor */
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.upload{
+    width: 200px;
+    height: 200px;
+}
+
+.letra{
+    color: #2125297d;
+}
+.Btn1{
+    text-align: center;
+    font-weight:lighter;
+    font-size: 14px; /* Cambia el tamaño del texto */
+    color: #ffffff; /* Cambia el color del texto */
+    background-color: rgb(81, 180, 27); /* Cambia el color de fondo */
+    border: none; /* Elimina los bordes del botón */
+    border-radius: 20px; /* Redondea los bordes */
+    padding: 10px 10px; /* Ajusta el relleno y margen */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse por encima */
+    width: 80%; /* Establece el ancho del botón */
+}
+
+.Btn{
+    background-color: rgb(52, 52, 223);
+    color: #c4c4c4;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px 10px; /* Ajusta el relleno y margen */
+    width: 50%;
+    margin: 20px 25% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    justify-content: space-evenly;
+    display: flex;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.pila{
+    
+    margin: 10px 20px ;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #626161;
+}
+.boton-descargar{
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    border-radius: 5px;
+    padding: 1px 1px;
+    width: 120px;
+    height: 30px;
+}
+
+.boton-eliminar{
+    background-color: red;
+    color: white;
+    width: 85px;
+    height: 27px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.drop-area.active{
+    background-color: #b8d4fe;
+    color: black;
+    border: 2px dashed #e74646;
+}
+
+.file-container{
+    display: flex;
+    align-items: center;
+    gap: 10x;
+    padding: 10px;
+    border: solid 1px white;
+}
+#preview{
+    margin-top: 10px;
+}
+.status-text{
+    padding:  0 10px;
+}
+
+.success{
+    color: #2ecc71;
+}
+
+.failure{
+    color: red;
+}
