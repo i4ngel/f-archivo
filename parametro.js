@@ -47,37 +47,6 @@ function generarCadenaAleatoria() {
 }
 
 
-const inputFile = document.getElementById("archivo");
-inputFile.addEventListener("change", function(){
-    const files = inputFile.files;
-    //Obtener el nombre del archivo
-    const fileName = files[0].name;
-
-    // Obtener el peso
-    const fileSize = files[0].size;
-
-    //Actualizar el progressBar
-    updateProgressBar(fileName, fileSize);
-})
-
-function updateProgressBar(fileName, fileSize){
-    //Obtener la barra de progreso
-    const progressBar = document.getElementById("progressBar")
-
-    //Calcular el porcentaje de progreso
-    const progress = (fileSize / 1000000) / 100;
-
-    // Actualizar la barra de progreso 
-    progressBar.value = progress;
-
-    // Actualizar el texto del progressbar
-    progressBar.innerHTML = fileName + " - " + fileSize + "MB - " + progress + "%"; 
-}
- const form = document-getElementById("form");
- form.addEventListener("submit", function(){
-    // Enviar los archivos
-    form.submit();
- })
 
 
 
@@ -167,3 +136,5 @@ Form.addEventListener('submit', (e) => {
         alert('Por favor, seleccione un archivo primero.');
     }
 });
+
+//progres bar 

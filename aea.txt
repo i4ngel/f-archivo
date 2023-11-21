@@ -1,5 +1,0 @@
-<!-- <h2><label for="archivo" class="Btn1"> Selecciona un archivo</label></h2> -->
-                <!-- <input type="file"  id="archivo" class="Btn1" name="archivo" accept=".jpg, .png, .pdf" hidden> 
-                <button class="Btn" type="Submit">  <img src="img/select.svg">  Subir Archivo</button>                 
-                <input type="submit" class="" value="Subir Archivo" onclick="notificacionSubida(<?php echo $subido ? 'true' : 'false'; ?>)" hidden>
-                <div class="letra"> <p>O arrastra el archivo aqui</p> </div> -->
