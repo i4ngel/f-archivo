@@ -1,156 +1,124 @@
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;700&family=Montserrat:wght@300;400;600&family=Roboto:wght@100;300;400;700&display=swap");
 * {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
 }
-
-body{
-    background: rgb(246,237,220);
-background: linear-gradient(180deg, rgba(246,237,220,1) 0%, rgba(165,200,202,1) 46%, rgba(99,155,200,1) 100%);
-background-repeat: no-repeat;
-background-attachment: fixed;
-
-}
-.spn{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    padding-top: 80px;
+body {
+  background: hsl(235deg 100% 93% / 50%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #585858;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .content {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
+  text-align: center;
+  background-color: rgba(226, 197, 197, 0.277);
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: hsl(235deg 100% 70% / 30%) 0 25px 50px -12px;
+  width: 900px;
+  ;
+}
+
+.title1 {
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+}
+
+.title1 .uno {
+  color: blueviolet;
+}
+
+.title1 .dos {
+  color: #585858;
+}
+
+.title2 {
+  font-weight: 600;
+  font-size: 25px;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 450px;
+  max-width: 900px;
+
 }
 
 .drop-area {
-    flex: 1;
-    margin: 10px; /* Espacio entre los contenedores */
-    border: 4px dashed #c4c4c4; /* Borde para visualización */
-    box-sizing: border-box; /* El borde se incluye en el ancho y alto del contenedor */
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 5px 20px;
+  width: 435px;
+  text-align: center;
+  flex: 1;
+  margin: 10px; /* Espacio entre los contenedores */
+  border: 2px dashed rgb(162, 162, 219); /* Borde para visualización */
+  box-sizing: border-box; /* El borde se incluye en el ancho y alto del contenedor */
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: hsl(235deg, 100%, 99%);
+  color: #585858;
 }
+#form{
+  width: 350px;
+  height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.file-input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
 
-.container2 {
-    flex: 1;
-    margin: 10px; /* Espacio entre los contenedores */
-    border: 4px dashed #c4c4c4; /* Borde para visualización */
-    box-sizing: border-box; /* El borde se incluye en el ancho y alto del contenedor */
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.upload{
-    width: 200px;
-    height: 200px;
-}
-
-.letra{
-    color: #2125297d;
-}
-.Btn1{
-    text-align: center;
-    font-weight:lighter;
-    font-size: 14px; /* Cambia el tamaño del texto */
-    color: #ffffff; /* Cambia el color del texto */
-    background-color: rgb(81, 180, 27); /* Cambia el color de fondo */
-    border: none; /* Elimina los bordes del botón */
-    border-radius: 20px; /* Redondea los bordes */
-    padding: 10px 10px; /* Ajusta el relleno y margen */
-    cursor: pointer; /* Cambia el cursor al pasar el mouse por encima */
-    width: 80%; /* Establece el ancho del botón */
 }
 
 .Btn{
-    background-color: rgb(52, 52, 223);
-    color: #c4c4c4;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-    border-radius: 20px;
-    padding: 10px 10px; /* Ajusta el relleno y margen */
-    width: 50%;
-    margin: 20px 25% ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: rgb(14, 14, 218);
+  z-index: 2; /*Superpone en el index*/
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 150px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  
 }
 
-table{
-    justify-content: space-evenly;
-    display: flex;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.pila{
-    
-    margin: 10px 20px ;
-}
-th, td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-}
-
-th {
-    background-color: #626161;
-}
-.boton-descargar{
-    text-decoration: none;
-    background-color: green;
-    border: 1px solid green;
-    color: white;
-    border-radius: 5px;
-    padding: 1px 1px;
-    width: 120px;
-    height: 30px;
-}
-
-.boton-eliminar{
-    background-color: red;
-    color: white;
-    width: 85px;
-    height: 27px;
-    border-radius: 5px;
-    border: 1px solid red;
-}
-
-.drop-area.active{
-    background-color: #b8d4fe;
-    color: black;
-    border: 2px dashed #e74646;
-}
-
-.file-container{
-    display: flex;
-    align-items: center;
-    gap: 10x;
-    padding: 10px;
-    border: solid 1px white;
-}
-#preview{
-    margin-top: 10px;
-}
-.status-text{
-    padding:  0 10px;
-}
-
-.success{
-    color: #2ecc71;
-}
-
-.failure{
-    color: red;
+.container2 {
+  flex: 1;
+  margin: 10px; /* Espacio entre los contenedores */
+  box-sizing: border-box; /* El borde se incluye en el ancho y alto del contenedor */
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px 20px;
+  background-color: hsla(240, 50%, 85%, 0.319);
+  max-height: 430px;
+  overflow-y: auto;
+  width: 435px;
 }

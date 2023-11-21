@@ -1,17 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@100;700&family=Montserrat:wght@300;400;600&family=Roboto:wght@100;300;400;700&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-    color: #051842;
-
+  margin: 0;
+  padding: 0;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
 }
 
 body{
-    
-    align-items: center;
-    background: #fff;
-    
+      /* background-image: url(img/bj.svg);
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: hsl(235deg 100% 93% / 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  /* font-weight: 400; */
+  color: #585858;
 }
 
 h1{
